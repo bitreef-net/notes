@@ -47,3 +47,8 @@ nmap -p- -A -sU 192.168.1.5
 ```
 nmap -p- -A -sT 192.168.1.5 -oA <scan_filename>
 ```
+
+## Enumerate website via nmap
+```
+nmap -script http-enum.nse <host>
+```
